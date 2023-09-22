@@ -97,3 +97,16 @@ img{
     display: flex;
     flex-direction: column;
 }
+@media (max-width: 600px) {
+    .bar {
+        width: 100px;
+    }
+    .content {
+        display: block;
+    }
+    .pop {
+        display: block;
+        align-content: center;
+        margin-left: 30px;
+    }
+}
